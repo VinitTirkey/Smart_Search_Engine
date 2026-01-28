@@ -1,0 +1,14 @@
+[project]
+name = "smart-search-engine"
+version = "1.0.0"
+description = "Smart Search Engine using LangChain and Bright Data"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.1",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.5",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.4",
+]
